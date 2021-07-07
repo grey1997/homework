@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <description><![CDATA["Shopizer tag libs"]]></description>
+    <display-name>"Common Tags"</display-name>
+    <tlib-version>0.1</tlib-version>
+    <short-name>common</short-name>
+    <uri>/common-tag</uri>
+
+    <tag>
+        <!-- Builds the image URL (in admin section only)-->
+        <name>commonTitle</name>
+        <tag-class>com.project.tag.CommonTitleTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>name</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>message</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+</taglib>
+
+ 
