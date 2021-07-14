@@ -1,0 +1,14 @@
+com.microprofile.config.converter.BigDecimalConverter
+com.microprofile.config.converter.BigIntegerConverter
+com.microprofile.config.converter.BooleanConverter
+com.microprofile.config.converter.ByteConverter
+com.microprofile.config.converter.CharacterConverter
+com.microprofile.config.converter.ClassConverter
+com.microprofile.config.converter.DoubleConverter
+com.microprofile.config.converter.FloatConverter
+com.microprofile.config.converter.IntegerConverter
+com.microprofile.config.converter.LongConverter
+com.microprofile.config.converter.ObjectConverter
+com.microprofile.config.converter.ShortConverter
+com.microprofile.config.converter.StringConverter
+com.microprofile.config.converter.URIConverter
