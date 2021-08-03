@@ -2,7 +2,11 @@
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
-<web-app>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="false" version="3.0">
   <display-name>week02</display-name>
 
   <welcome-file-list>
@@ -10,4 +14,7 @@
     <welcome-file>/index</welcome-file>
     <welcome-file>/index.jsp</welcome-file>
   </welcome-file-list>
+  <listener>
+    <listener-class>com.microprofile.config.source.servlet.ServletConfigInitializer</listener-class>
+  </listener>
 </web-app>
